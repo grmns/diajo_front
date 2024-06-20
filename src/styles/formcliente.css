@@ -1,0 +1,74 @@
+.formulario-crear-cliente {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-cliente .p-float-label>label {
+    text-align: right;
+    display: block;
+}
+
+.form-cliente .p-inputtext,
+.form-cliente .p-dropdown,
+.form-cliente .p-calendar,
+.form-cliente .p-checkbox {
+    width: 100%;
+}
+
+.form-cliente .p-button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-cliente .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-cliente .form-label {
+    flex-basis: 45%; 
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-cliente .p-inputtext,
+.form-cliente .p-dropdown,
+.form-cliente .p-calendar,
+.form-cliente .p-checkbox,
+.form-cliente .p-inputnumber {
+    flex-grow: 1;
+}
+
+.form-cliente .p-inputnumber {
+    width: 100%;
+}
+
+.form-cliente .p-autocomplete {
+    flex-grow: 1;
+    width: 100%;
+}
+
+
+.form-cliente .p-button {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+}

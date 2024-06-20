@@ -1,0 +1,74 @@
+.formulario-crear-proveedor {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-proveedor .p-float-label>label {
+    text-align: right;
+    display: block;
+}
+
+.form-proveedor .p-inputtext,
+.form-proveedor .p-dropdown,
+.form-proveedor .p-calendar,
+.form-proveedor .p-checkbox {
+    width: 100%;
+}
+
+.form-proveedor .p-button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-proveedor .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-proveedor .form-label {
+    flex-basis: 45%; 
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-proveedor .p-inputtext,
+.form-proveedor .p-dropdown,
+.form-proveedor .p-calendar,
+.form-proveedor .p-checkbox,
+.form-proveedor .p-inputnumber {
+    flex-grow: 1;
+}
+
+.form-proveedor .p-inputnumber {
+    width: 100%;
+}
+
+.form-proveedor .p-autocomplete {
+    flex-grow: 1;
+    width: 100%;
+}
+
+
+.form-proveedor .p-button {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+}

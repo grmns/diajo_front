@@ -1,0 +1,84 @@
+.formulario-crear-compra {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-editar-compra {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-compra .p-float-label>label {
+    text-align: right;
+    display: block;
+}
+
+.form-compra .p-inputtext,
+.form-compra .p-dropdown,
+.form-compra .p-calendar,
+.form-compra .p-checkbox {
+    width: 100%;
+}
+
+.form-compra .p-button {
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.titulo-formulario {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-compra .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-compra .form-label {
+    flex-basis: 45%; 
+    text-align: left;
+    margin-right: 10px;
+}
+
+.form-compra .p-inputtext,
+.form-compra .p-dropdown,
+.form-compra .p-calendar,
+.form-compra .p-checkbox,
+.form-compra .p-inputnumber {
+    flex-grow: 1;
+}
+
+.form-compra .p-inputnumber {
+    width: 100%;
+}
+
+.form-compra .p-autocomplete {
+    flex-grow: 1;
+    width: 100%;
+}
+
+
+.form-compra .p-button {
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
